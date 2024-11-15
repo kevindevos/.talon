@@ -1,0 +1,89 @@
+{
+	"cluck": {
+		"sounds": ["click_alveolar"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.9
+		},
+		"throttle": {
+			"palate_click": 0.12,
+			"cluck": 0.12,
+			"pop": 0.2
+		}
+	},
+	"palate_click": {
+		"sounds": ["click_palatal"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.9
+		},
+		"throttle": {
+			"palate_click": 0.12,
+			"cluck": 0.15,
+			"shush": 0.15
+		}
+	},
+	"pop": {
+		"sounds": ["sound_pop"],
+		"threshold": {
+			">power": 1,
+			">probability": 0.96
+		},
+		"throttle": {
+			"pop": 0.15,
+			"palate_click": 0.12
+		}
+	},
+	"fff": {
+		"sounds": ["fricative_f"],
+		"threshold": {
+			">power": 10,
+			">probability": 0.87
+		},
+		"graceperiod": 0.1,
+		"grace_threshold": {
+			">power": 5,
+			">probability": 0.3
+		},
+		"throttle": {
+			"palate_click": 0.12,
+			"fff": 0.2
+		}
+	},
+	"buzz": {
+		"sounds": ["sibilant_z", "fricative_v"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.9995
+		},
+		"graceperiod": 0.1,
+		"grace_threshold": {
+			">power": 10,
+				">probability": 0.7
+		},
+		"throttle": {
+			"buzz": 0.75
+		}
+	},
+	"hiss": {
+		"sounds": ["sibilant_s"],
+		"threshold": {
+			">power": 25,
+			">probability": 0.95
+		},
+		"throttle": {
+			"hiss": 0.01
+		}
+	},
+	"shush": {
+		"sounds": ["sibilant_sh"],
+		"threshold": {
+			">power":35,
+			">probability": 0.995
+		},
+		"throttle": {
+			"ch": 0.2,
+			"shush": 0.01
+		}
+	}
+}
