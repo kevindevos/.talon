@@ -1,6 +1,3 @@
-[submodule "user/community"]
-	path = user/community
-	url = git@github.com:kevindevos/community.git
 [submodule "user/rango"]
 	path = user/rango
 	url = https://github.com/kevindevos/rango
@@ -13,3 +10,6 @@
 [submodule "user/webspeech_examples"]
 	path = user/webspeech_examples
 	url = https://github.com/kevindevos/webspeech_examples
+[submodule "user/community"]
+	path = user/community
+	url = https://github.com/kevindevos/community
