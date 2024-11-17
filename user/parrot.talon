@@ -11,20 +11,20 @@ parrot(buzz):
 
 
 parrot(hiss):
-	print("hiss")
-	user.mouse_scroll_down(0.05)
-	sleep(0.05)
-    user.mouse_scroll_down(0.05)
-	sleep(0.05)
-	user.mouse_scroll_down(0.05)
+	#print("hiss")
+	#user.mouse_scroll_down(0.05)
+	#sleep(0.05)
+    #user.mouse_scroll_down(0.05)
+	#sleep(0.05)
+	#user.mouse_scroll_down(0.05)
 
 parrot(shush):
-	print("shush")
-    user.mouse_scroll_up(0.05)
-	sleep(0.05)
-    user.mouse_scroll_up(0.05)
-	sleep(0.05)
-	user.mouse_scroll_up(0.05)
+	#print("shush")
+    #user.mouse_scroll_up(0.05)
+	#sleep(0.05)
+    #user.mouse_scroll_up(0.05)
+	#sleep(0.05)
+	#user.mouse_scroll_up(0.05)
 	
 parrot(tut):
 	print("tut")
