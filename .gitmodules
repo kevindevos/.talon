@@ -1,9 +1,6 @@
 [submodule "user/rango"]
 	path = user/rango
 	url = https://github.com/kevindevos/rango
-[submodule "user/rango-talon"]
-	path = user/rango-talon
-	url = https://github.com/kevindevos/rango-talon
 [submodule "user/cursorless-talon"]
 	path = user/cursorless-talon
 	url = https://github.com/kevindevos/cursorless-talon
